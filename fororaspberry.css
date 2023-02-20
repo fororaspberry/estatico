@@ -1,0 +1,37 @@
+/**
+ *
+ * Foro Raspberry Custom CSS
+ * akcdn.fororaspberry.es
+ * 
+ **/
+
+/* Texto gris general */
+ body {
+	color: rgba(0,0,0,.6);
+}
+
+/* Ajustar imagen de cada foro */
+.forum-image {
+	float: left;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+/* Borde de los input de los forms */
+.inputbox {
+	border-color: #CECECE;
+}
+
+
+/* Sombra del post */
+.viewtopic_wrapper .post {
+    box-shadow: 3px 5px 5px 2px #ddd;
+}
+
+/* Fecha del ultimo post */
+.topic-poster span.clutter {
+        display: initial !important;
+}       
+
+.online { background-image: url("./icon_user_online.gif"); }
